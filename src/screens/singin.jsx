@@ -4,12 +4,32 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { FaGithub } from 'react-icons/fa';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import  img1 from '@/assets/img1.svg';
+import  img2 from '@/assets/img2.svg';
 
 export function SingIn() {
     return (
         <>
-            <main className="w-screen h-screen flex">
-                <div className="bg-gray-100 w-full h-full flex p-16"></div>
+            <main className="w-screen h-screen flex flex-col sm:flex-row">
+                <div className="bg-gray-50 w-full h-full p-16 items-center justify-center ml-4 hidden sm:flex">
+                    <Carousel className='w-full max-w-xl'>
+                        <CarouselContent>
+                            <CarouselItem>
+                                <div className="flex aspect-square rounded p-8">
+                                    <img src={img1} alt="Descrição da imagem" />
+                                </div>
+                            </CarouselItem>
+                            <CarouselItem>
+                                <div className="flex aspect-square rounded p-8">
+                                    <img src={img2} alt="Descrição da imagem" />
+                                </div>
+                            </CarouselItem>
+                        </CarouselContent>
+                        <CarouselPrevious className='w-12 h-12 bg-gray-300'/>
+                        <CarouselNext className='w-12 h-12 bg-gray-300'/>
+                    </Carousel>
+                </div>
                 <section className="h-full bg-gray-50 flex max-w-3xl w-full p-4 items-center justify-center">
                     <Card className='w-full max-w-md'>
                         <CardHeader className="">
