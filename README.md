@@ -3,21 +3,14 @@
 Este é um projeto de uma tela de login simples e responsiva desenvolvida usando React, Tailwind CSS, Vite e Shadcn. A aplicação foi criada com o objetivo de fornecer uma interface de login elegante e eficiente para autenticação de usuários.
 
 ## 
-## Acesso ao Demo do site 👉🏻 <a href='https://victorbrasileiroo.github.io/LoginScreen/'>Clique Aqui ❗</a>
-
 <img src="src/assets/imgLoginScreen.png" alt="">
+## Acesso ao Demo do site 👉🏻 <a href='https://victorbrasileiroo.github.io/LoginScreen/'>Clique Aqui ❗</a>
 
 ## Índice
 
 - [Recursos](#recursos)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação e Configuração](#instalação-e-configuração)
-- [Como Executar](#como-executar)
-- [Scripts Disponíveis](#scripts-disponíveis)
-- [Customização](#customização)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+- [React + Vite](#React-+-Vite)
 
 ## Recursos
 
@@ -32,15 +25,6 @@ Este é um projeto de uma tela de login simples e responsiva desenvolvida usando
 - **Vite:** Ferramenta de build que oferece um ambiente de desenvolvimento ultrarrápido.
 - **Tailwind CSS:** Framework de utilitários CSS altamente customizável.
 - **Shadcn:** Sistema de design para construção de interfaces consistentes e acessíveis.
-
-## Como Executar
-
-Para executar o projeto localmente:
-
-bash
-npm run dev
-# ou
-yarn dev
 
 # React + Vite
 
